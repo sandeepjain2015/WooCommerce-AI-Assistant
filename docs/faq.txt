@@ -1,0 +1,29 @@
+Q: How can I contact customer support?
+A: Email support@example.com or call +1-800-123-4567.
+
+Q: What payment methods do you accept?
+A: We accept Visa, MasterCard, PayPal, and Stripe.
+
+Q: Is my payment information secure?
+A: Yes, all payments are processed securely using encrypted connections.
+
+Q: Can I cancel my order?
+A: Orders can be canceled before they are shipped.
+
+Q: Do you offer discounts?
+A: Seasonal promotions and discount codes are available throughout the year.
+
+Q: How can I check my order status?
+A: Log in to your account and visit the Orders section.
+
+Q: Can I create an account after placing an order?
+A: Yes, you can create an account using the same email address.
+
+Q: Do you sell gift cards?
+A: Yes, digital gift cards are available.
+
+Q: How do I update my account information?
+A: Visit the Account Settings page after logging in.
+
+Q: What should I do if I forget my password?
+A: Use the "Forgot Password" link on the login page.

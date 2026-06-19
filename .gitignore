@@ -1,0 +1,97 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+
+.venv/
+venv/
+env/
+
+# Environment Variables
+
+.env
+
+# VS Code
+
+.vscode/
+
+# PyCharm
+
+.idea/
+
+# Mac
+
+.DS_Store
+
+# Linux
+
+*.swp
+
+# Logs
+
+*.log
+
+# SQLite
+
+*.sqlite3
+*.db
+
+# LangGraph
+
+.checkpoints/
+
+# FAISS Index
+
+faiss_index/
+*.faiss
+*.pkl
+
+# Build
+
+build/
+dist/
+*.egg-info/
+
+# Docker
+
+docker-compose.override.yml
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Testing
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Gradio
+
+gradio_cached_examples/
+
+# Temporary Files
+
+tmp/
+temp/
+
+# Secrets
+
+secrets.json
+credentials.json
+
+# AWS
+
+.aws/
+
+# Local Config
+
+config.local.py
+
+# IDE Settings
+
+*.sublime-project
+*.sublime-workspace

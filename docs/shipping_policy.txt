@@ -1,0 +1,29 @@
+Q: How long does shipping take?
+A: Standard shipping takes 5-7 business days.
+
+Q: Do you offer express shipping?
+A: Yes, express shipping takes 1-3 business days.
+
+Q: How much does shipping cost?
+A: Shipping costs are calculated at checkout based on location.
+
+Q: Do you provide free shipping?
+A: Free shipping is available on orders above $100.
+
+Q: Do you ship internationally?
+A: Yes, we ship to selected international countries.
+
+Q: How can I track my order?
+A: A tracking number is sent via email once the order is shipped.
+
+Q: What happens if my package is delayed?
+A: Please contact support if your order is delayed beyond the estimated delivery date.
+
+Q: Can I change my shipping address after placing an order?
+A: Address changes are possible before the order is shipped.
+
+Q: What if my package is lost?
+A: Contact our support team and we will investigate with the carrier.
+
+Q: Which shipping carriers do you use?
+A: We use UPS, FedEx, DHL, and local delivery partners.
