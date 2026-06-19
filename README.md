@@ -303,6 +303,19 @@ http://127.0.0.1:8000/docs
 * WhatsApp Integration
 
 ---
+## Screenshots
+
+### Products Agent
+
+![Products Agent](screenshots/Products%20Agent.png)
+
+### Coupons Agent
+
+![Coupons Agent](screenshots/Coupons%20Agent.png)
+
+### CEO Agent
+
+![CEO Agent](screenshots/CEO%20Agent.png)
 
 ## Author
 
