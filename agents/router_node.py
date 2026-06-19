@@ -50,6 +50,14 @@ marketing:
 - email marketing
 - Facebook ads
 
+products:
+- what products do you sell
+- show products
+- product catalog
+- available products
+- list products
+- product information
+
 ceo:
 - action plan
 - business strategy

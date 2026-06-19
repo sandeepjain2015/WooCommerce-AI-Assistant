@@ -237,7 +237,10 @@ def respond(message, history):
         )
 
         answer = result["messages"][-1].content
+    elif route == "products":
 
+        products = get_products_tool.invoke({})
+        answer = products
     elif route == "summary":
 
         answer = get_store_summary.invoke({})
