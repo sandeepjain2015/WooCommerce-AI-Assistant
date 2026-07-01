@@ -15,6 +15,14 @@ The assistant can:
 
 ---
 
+# WooCommerce AI Assistant
+
+Multi-Agent AI Assistant built using LangGraph, FastAPI, RAG, DeepSeek, and WooCommerce APIs.
+
+## 🎥 Demo Video
+
+https://www.youtube.com/watch?v=YOUR_VIDEO_ID
+
 ## Features
 
 ### Customer Support Agent

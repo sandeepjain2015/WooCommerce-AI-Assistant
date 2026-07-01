@@ -31,14 +31,7 @@ health_graph.add_node(
     memory_node
 )
 
-health_graph.set_entry_point(
-    "memory"
-)
 
-health_graph.add_edge(
-    "memory",
-    "summary"
-)
 health_graph.add_node(
     "summary",
     summary_node
@@ -72,6 +65,14 @@ health_graph.add_node(
 health_graph.add_node(
     "ceo",
     ceo_node
+)
+health_graph.set_entry_point(
+    "memory"
+)
+
+health_graph.add_edge(
+    "memory",
+    "summary"
 )
 health_graph.add_edge(
     "summary",
