@@ -1,10 +1,10 @@
 from config.llm import llm
-from woocommerce_tools import (
-    get_store_summary,
+
+from services.store_service import get_store_summary
+from services.product_service import (
     get_top_selling_products,
     get_low_stock_products
 )
-
 def summary_node(state):
 
     summary = get_store_summary.invoke({})

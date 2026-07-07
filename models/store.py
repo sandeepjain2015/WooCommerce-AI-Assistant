@@ -20,7 +20,8 @@ class Store(Base):
     user_id = Column(
         Integer,
         ForeignKey("users.id"),
-        nullable=False
+        nullable=False,
+        unique=True
     )
 
     store_url = Column(
@@ -40,5 +41,5 @@ class Store(Base):
 
     owner = relationship(
         "User",
-        back_populates="stores"
+        back_populates="store"
     )

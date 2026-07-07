@@ -1,11 +1,10 @@
 import os
+from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 
-# Using DeepSeek's standard chat model (DeepSeek-V3)
-MODEL_NAME = "deepseek-chat"
+load_dotenv()
 
-print("DEEPSEEK_API_KEY")
-print(os.getenv("DEEPSEEK_API_KEY"))
+MODEL_NAME = "deepseek-chat"
 
 llm = ChatOpenAI(
     model=MODEL_NAME,

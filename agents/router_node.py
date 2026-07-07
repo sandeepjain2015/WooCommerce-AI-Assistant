@@ -2,7 +2,7 @@
 
 from config.llm import llm
 
-
+print("LLM ID:", id(llm))
 def get_route(question):
 
     prompt = f"""
@@ -14,17 +14,29 @@ Question:
 Routes:
 
 support:
+Customer support questions about the store including:
+
 - return policy
-- shipping
-- FAQ
+- shipping policy
+- refund policy
+- exchange policy
 - payment methods
+- account creation
+- login
+- registration
+- guest checkout
+- order tracking
+- delivery
+- FAQs
+- store policies
+- customer account
+- placing orders
+- canceling orders
 - coupons
-- coupon codes
 - discounts
-- best discount
-- available offers
-- promo codes
-- products
+
+Any question about store policies, customer help, FAQs,
+or shopping experience should ALWAYS be routed to support.
 
 summary:
 - store summary

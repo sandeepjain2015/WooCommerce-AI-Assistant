@@ -1,10 +1,8 @@
 from woocommerce import API
 
-from fastapi import HTTPException
-
 from context.request_context import (
     get_current_user,
-    get_db
+    get_db,
 )
 
 from models.store import Store
@@ -20,22 +18,12 @@ class WooCommerceClient:
         db = get_db()
 
         if user is None:
+            raise HTTPException(status_code=401, detail="User not authenticated.")
 
-            raise HTTPException(
-                status_code=401,
-                detail="User not authenticated."
-            )
-
-        store = db.query(Store).filter(
-            Store.user_id == user.id
-        ).first()
+        store = db.query(Store).filter(Store.user_id == user.id).first()
 
         if store is None:
-
-            raise HTTPException(
-                status_code=404,
-                detail="Store not connected."
-            )
+            raise HTTPException(status_code=404, detail="Store not connected.")
 
         return API(
             url=store.store_url,

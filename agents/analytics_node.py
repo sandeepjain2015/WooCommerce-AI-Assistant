@@ -1,11 +1,11 @@
 from config.llm import llm
 
-from woocommerce_tools import (
-    get_store_summary,
+from services.product_service import (
     get_top_selling_products,
     get_low_stock_products
 )
 
+from services.store_service import get_store_summary
 
 def analytics_node(state):
 

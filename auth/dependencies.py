@@ -13,7 +13,10 @@ from models.user import User
 
 from auth.jwt_handler import SECRET_KEY
 from auth.jwt_handler import ALGORITHM
-
+from context.request_context import (
+    set_current_user,
+    set_db
+)
 security = HTTPBearer()
 
 
@@ -51,5 +54,6 @@ def get_current_user(
             status_code=401,
             detail="User not found"
         )
-
+    set_current_user(user)
+    set_db(db)
     return user

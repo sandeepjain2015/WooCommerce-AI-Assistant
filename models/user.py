@@ -32,9 +32,10 @@ class User(Base):
         nullable=False
     )
 
-    # One User -> Many Stores
-    stores = relationship(
+    # One User -> One Store
+    store = relationship(
         "Store",
         back_populates="owner",
+        uselist=False,
         cascade="all, delete-orphan"
     )

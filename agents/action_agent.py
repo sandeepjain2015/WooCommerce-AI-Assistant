@@ -1,5 +1,5 @@
 from langgraph.graph import END
-from woocommerce_tools import increase_prices_tool  # or tool version if using .invoke()
+from services.product_service import increase_prices_tool  # or tool version if using .invoke()
 
 # 1. Approval Node
 def approval_node(state):

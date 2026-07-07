@@ -2,13 +2,18 @@ from langgraph.prebuilt import create_react_agent
 
 from config.llm import llm
 
-from woocommerce_tools import (
+from services.store_service import (
     search_store_docs,
-    get_store_summary,
-    get_all_coupons,
+)
+from services.product_service import (
     get_products_tool
 )
-
+from services.coupon_service import (
+    get_all_coupons
+)
+from services.store_service import (
+    get_store_summary
+)
 tools = [
     search_store_docs,
     get_store_summary,

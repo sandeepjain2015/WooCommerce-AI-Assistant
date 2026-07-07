@@ -13,23 +13,27 @@ from agents.support_agent import support_agent
 from agents.marketing_agent import marketing_node
 from agents.router_node import get_route
 from agents.analytics_node import analytics_node
-from woocommerce_tools import (
-    get_products_tool,
+
+from services.memory_service import get_memory
+from services.dashboard_service import get_dashboard_stats_new
+from services.order_service import (
     get_orders_tool,
     get_today_orders_tool,
-    create_coupon_tool,
-    increase_prices_tool,
-    search_product_tool,
-    get_low_stock_products,
-    get_product_by_id,
-    get_order_by_id,
-    get_top_selling_products,
-    get_all_coupons,
-    get_store_summary,
-    get_memory,
-    search_store_docs,
-    get_dashboard_stats_new
+    get_order_by_id
 )
+from services.coupon_service import (
+    create_coupon_tool,
+    get_all_coupons
+)
+from services.product_service import (
+    get_products_tool,
+    search_product_tool,
+    get_product_by_id,
+    get_top_selling_products,
+    increase_prices_tool,
+    get_low_stock_products
+)
+from services.store_service import (get_store_summary,search_store_docs)
 tools = [
     get_products_tool,
     get_orders_tool,

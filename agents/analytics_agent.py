@@ -1,13 +1,10 @@
 from langgraph.prebuilt import create_react_agent
-
 from config.llm import llm
-
-from woocommerce_tools import (
-    get_store_summary,
-    get_top_selling_products,
-    get_products_tool
+from services.store_service import get_store_summary
+from services.product_service import (
+    get_products_tool,
+    get_top_selling_products
 )
-
 analytics_agent = create_react_agent(
     model=llm,
     tools=[
